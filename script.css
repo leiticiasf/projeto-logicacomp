@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: centerx;
+}
+
+#conta{
+    padding: 300px;
+    padding-left: 350px;
+}
+
+.cont2{  
+        display: flex;
+        margin-top: 150px;
+        margin-bottom: 20px;
+} 
+#botao{
+    text-align: center;
+    font-family: 'monospace';
+    padding: 100px;
+    
+}
+
+.op1 {
+    text-align: center;
+    padding: 50px;
+    margin-left: 430px;
+}
+.op2 {
+    text-align: center;
+    padding: 50px;
+    margin-left: 20px;
+}
+.op3 {
+    text-align: center;
+    padding: 50px;
+    margin-left: 20px;
+}
+#volta{
+    text-align: left;
+    padding-bottom: 100px;
+}

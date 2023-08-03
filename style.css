@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    background-color: rgb(6, 0, 53);  
+ }  
+ 
+ .intro{
+    text-align: center;
+ }
+ .container {
+       display: flex;
+       margin-top: 150px;
+       margin-bottom: 20px;
+     }   
+ .novo{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'monospace';
+    flex: 1;
+    padding: 90px;
+    margin-left: 10px;   
+ }
+ .visu{
+   font-size: 20px;
+   text-align: center;
+   font-family: 'monospace';
+   flex: 1;
+   padding: 0px;
+   margin-right: 30px;
+   margin-top: 10px;
+ 
+ }
+ 
