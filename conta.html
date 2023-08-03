@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="script.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativ Lógica Computacional</title>
+</head>
+<body style="text-align: center;">
+    <div id="conta">
+    <p>Me informe o número da sua conta bancária.<br><br> <input type="text" id="info" placeholder="Núm. Conta"></p>
+    <button onclick="conta()">Enviar</button>
+    </div>
+</body>
+</html>
+<script>
+    function conta() {
+        if(document.getElementById("info").value == ""){
+        alert('Por favor, informe o número da sua conta.');
+        }     
+        else{
+        window.location.href = "info.html" 
+        }
+    }
+</script>
