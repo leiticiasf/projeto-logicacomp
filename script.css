@@ -14,17 +14,20 @@ body{
         margin-top: 150px;
         margin-bottom: 20px;
 } 
-#botao{
+button{
     text-align: center;
-    font-family: 'monospace';
-    padding: 100px;
-    
+    border-radius: 11px;
+    width: 100px;
+    font-size: large;
+    margin-left: 650px;
+    border-color: rgb(121, 121, 121);
+    background-color: blanchedalmond;
 }
 
 .op1 {
     text-align: center;
     padding: 50px;
-    margin-left: 430px;
+    margin-left: 350px;
 }
 .op2 {
     text-align: center;
@@ -38,6 +41,9 @@ body{
 }
 #saida{
     text-align: center;
-
+    margin-left: 50px;
+    padding-top: 40px;
+    border-radius: 11px;
 }
+
 
