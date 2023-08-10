@@ -27,3 +27,12 @@ body{
   
 }
 
+button{
+   color: rgb(127, 163, 194);
+   text-align: center;
+   border-radius: 11px;
+   border-color: rgb(121, 121, 121);
+   background-color: rgb(44, 44, 44);
+}  
+
+

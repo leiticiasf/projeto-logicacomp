@@ -19,7 +19,7 @@ button{
     border-radius: 11px;
     width: 100px;
     font-size: large;
-    margin-left: 650px;
+    margin-left: 750px;
     border-color: rgb(121, 121, 121);
     background-color: blanchedalmond;
 }
@@ -27,7 +27,7 @@ button{
 .op1 {
     text-align: center;
     padding: 50px;
-    margin-left: 350px;
+    margin-left: 450px;
 }
 .op2 {
     text-align: center;
@@ -44,13 +44,17 @@ button{
     margin-left: 50px;
     padding-top: 40px;
     border-radius: 11px;
-    font-size: medium;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
 #botao{
     text-align: center;
-    padding: 5x;
     margin-left: 10px;
+}
+
+#simsim{
+    font-size: 30px;
 }
 
 

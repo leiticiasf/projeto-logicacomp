@@ -2,16 +2,26 @@ body{
     background-image: url(fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
+
     }
     .text{
         color: aliceblue;
-        font-size: 13px;   
+        font-size: 15px;   
     }    
     
     .img{
         position: fixed;
         height:200vh;
-        top: 200px;
-        left: 800px;
+        top: 500px;
+        left: 1000px;
+        size: 100px;
+    }
+
+    button{
+        color: rgb(127, 163, 194);
+        text-align: center;
+        border-radius: 11px;
+        border-color: rgb(255, 255, 255);
+        background-color: rgb(44, 44, 44);
     }
     
