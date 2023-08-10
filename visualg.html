@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="visual.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualG</title>
+</head>
+<body>
+    <div class="container">
+    <p>
+    <pre>
+        <code>
+<div class="text">
+Var
+conta, operacao, saldo, saque, deposito: real
+
+Inicio
+saldo <- 1000
+escreval("Insira o número da sua conta bancária:")
+leia(conta)
+escreval("Qual operação você deseja realizar?")
+escreval("1 - SALDO           2 - SAQUE         3 - DEPÓSITO")
+leia(operacao)
+limpatela()
+
+escolha operacao
+caso 1
+escreva("Seu saldo é de R$", saldo, ",00.")
+
+caso 2
+escreval("Quanto você gostaria de sacar?")
+leia(saque)
+se (saque > saldo) entao
+escreva("Erro. Você está tentando sacar mais do que possui.")
+senao
+escreva("Operação realizada com sucesso. Saldo atual R$", saldo - saque, ",00")
+fimse
+
+caso 3
+escreval("Quanto você gostaria de depositar?")
+leia(deposito)
+escreva("Depósito realizado com sucesso. Seu saldo atual é de R$", deposito + saldo, ",00.")
+
+
+fimescolha
+
+Fimalgoritmo
+
+        </code>
+    </pre>
+</div>
+<div class="img">
+    <img src="print.png">
+
+</div>
+<div class="result">
+    <button onclick="voltar()">Página Inicial</button>
+   
+</div>
+</div>
+
+</p>
+</body>
+</html>
+<script>
+    function voltar(){
+        window.location.href = "index.html"
+            }
+</script>

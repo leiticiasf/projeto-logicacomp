@@ -1,0 +1,17 @@
+body{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .text{
+        color: aliceblue;
+        font-size: 13px;   
+    }    
+    
+    .img{
+        position: fixed;
+        height:200vh;
+        top: 200px;
+        left: 800px;
+    }
+    
