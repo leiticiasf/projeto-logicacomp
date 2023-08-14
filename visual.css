@@ -12,8 +12,8 @@ body{
     .img{
         position: fixed;
         height:200vh;
-        top: 500px;
-        left: 1000px;
+        top: 400px;
+        left: 900px;
         size: 100px;
     }
 
@@ -22,7 +22,7 @@ body{
         height:200vh;
         top: 500px;
         left: 500px;
-        size: 100px;
+        size: 90px;
     }
 
     button{

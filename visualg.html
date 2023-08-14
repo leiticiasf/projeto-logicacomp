@@ -15,20 +15,68 @@
     </div>
    
 <div class="img">
-    <img src="print.png">
+    <img src="aiaia.png">
 
 </div>
+<textarea id="testes">
+Var
+conta, operacao, saldo, saque, deposito: real
+
+Inicio
+saldo <- 1000
+escreval("Insira o número da sua conta bancária:")
+leia(conta)
+escreval("Qual operação você deseja realizar?")
+escreval("1 - SALDO           2 - SAQUE         3 - DEPÓSITO")
+leia(operacao)
+limpatela()
+
+escolha operacao
+caso 1
+escreva("Seu saldo é de R$", saldo, ",00.")
+
+caso 2
+escreval("Quanto você gostaria de sacar?")
+leia(saque)
+se (saque > saldo) entao
+escreva("Erro. Você está tentando sacar mais do que possui.")
+senao
+escreva("Operação realizada com sucesso. Saldo atual R$", saldo - saque, ",00")
+fimse
+
+caso 3
+escreval("Quanto você gostaria de depositar?")
+leia(deposito)
+escreva("Depósito realizado com sucesso. Seu saldo atual é de R$", deposito + saldo, ",00.")
+
+
+fimescolha
+
+Fimalgoritmo
+</textarea>
+</div>
+
+<div>
+<button id="copiar">Copiar texto</button>
+</div>
+
+</p>
 <div class="result">
     <button onclick="voltar()">Página Inicial</button>
    
 </div>
-</div>
-
-</p>
 </body>
 </html>
 <script>
     function voltar(){
         window.location.href = "index.html"
             }
+
+    const textInput = document.getElementById('testes');
+    const copyButton = document.getElementById('copiar');
+
+    copyButton.addEventListener('click', ()=> {
+      textInput.select();
+      document.execCommand('copy');
+    });
 </script>
