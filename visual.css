@@ -17,6 +17,14 @@ body{
         size: 100px;
     }
 
+    .codigo{
+        position: fixed;
+        height:200vh;
+        top: 500px;
+        left: 500px;
+        size: 100px;
+    }
+
     button{
         color: rgb(127, 163, 194);
         text-align: center;
